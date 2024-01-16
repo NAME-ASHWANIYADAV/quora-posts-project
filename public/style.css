@@ -1,0 +1,95 @@
+/* h1{
+    color: maroon;
+}
+
+.post{
+     background-color: blanchedalmond;
+     
+}
+
+.username{
+    font-style: italic;
+} */
+/* Reset some default styles */
+body, h1, h2, h3, p, div, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.username {
+    color: #007bff;
+}
+
+.content {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: inline;
+}
+
+button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+/* Style for the create new post form */
+form[method="post"][action="/posts"] {
+    text-align: center;
+    margin: 20px;
+}
+
+form[method="post"][action="/posts"] input,
+form[method="post"][action="/posts"] textarea,
+form[method="post"][action="/posts"] button {
+    margin: 10px 0;
+}
+
+/* Style for the show.ejs file (assuming it's similar to create new post form) */
+form[method="post"][action="/posts"] {
+    text-align: center;
+    margin: 20px;
+}
+
+form[method="post"][action="/posts"] input,
+form[method="post"][action="/posts"] textarea,
+form[method="post"][action="/posts"] button {
+    margin: 10px 0;
+}
